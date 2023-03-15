@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1b011e;
+}
+
+.g1{
+    background-image: url("./images/g-1.jpg");
+}
+
+.g2{
+    background-image: url("./images/g-2.jpg");
+}
+
+.g3{
+    background-image: url("./images/g-3.jpg");
+}
+
+.g4{
+    background-image: url("./images/g-4.jpg");
+}
+
+.g5{
+    background-image: url("./images/g-5.jpg");
+}
+
+.gallery{
+    display: flex;
+    height: 30rem;
+    gap: 1rem;
+    margin: 8rem 5rem;
+}
+
+.gallery div{
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+   transition: all .8s cubic-bezier(.25, .4, .45, 1.4); 
+}
+
+.gallery div:hover{
+    flex: 5;
+}
+
